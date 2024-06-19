@@ -6,6 +6,7 @@
     --fuente-principal: 'IBM Plex Mono';
 }
 
+/* Header */
 header{
     background-color: var(--morado-azul);
     height: 96px;
@@ -13,9 +14,68 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-header h1{
+.title{
     font-family: var(--fuente-titulos);
     font-size: 24px;
+}
+
+/* Main */
+main{
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    margin: 100px 50px 0 50px;
+}
+
+.products__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    margin: 20px 0;
+    height: 800px;
+    overflow: scroll;
+    
+    scrollbar-width: thin;
+    scrollbar-color: #d7d6d7 #FFFFFF;
+}
+.card{
+    background-color: var(--morado-card);
+    width: 196px;
+    height: 258px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    border: #000000 solid 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    font-family: var(--fuente-principal);
     color: white;
+}
+.img__card{
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    border: #000000 solid 5px;
+}
+.info__card{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
 }
