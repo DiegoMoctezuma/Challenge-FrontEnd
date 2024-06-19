@@ -1,0 +1,21 @@
+:root {
+    --morado-azul:#5200c9;
+    --morado-card: #5c04d8;
+    --azul: #02318d;
+    --fuente-titulos: 'Press Start 2P';
+    --fuente-principal: 'IBM Plex Mono';
+}
+
+header{
+    background-color: var(--morado-azul);
+    height: 96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-family: var(--fuente-titulos);
+    font-size: 24px;
+    color: white;
+}
