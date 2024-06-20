@@ -1,0 +1,46 @@
+{
+    "productos":[
+        {
+            "nombre": "Kirby",
+            "precio": 200,
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/b3f8f0ea-730f-4cf3-aa54-5a1a961f88fe.6d9dd80e86a8bf789483a5605d276488.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "id":1
+        },
+        {
+            "nombre": "Mario",
+            "precio": 800,
+            "imagen": "https://imgs.search.brave.com/el0BXmCrnPqSetEFf21h3ksMaFl-RzzIbHiJ-NbWm8Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzE3NTExMTIxL3Iv/aWwvOTE1MjgzLzU5/MTk4NTk4MDYvaWxf/NjAweDYwMC41OTE5/ODU5ODA2XzRuNTIu/anBn",
+            "id":2
+        },
+        {
+            "nombre": "Luigi",
+            "precio": 700,
+            "imagen": "https://m.media-amazon.com/images/I/813x95MjfSL.jpg",
+            "id":3
+        },
+        {
+            "nombre": "Pikachu",
+            "precio": 1000,
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/a3c4e39a-3974-4d7e-8a4e-f68b6012e2de.61979ed8fdc5bf8e66656d486fe44daa.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "id":4
+        },
+        {
+            "nombre": "Sonic",
+            "precio": 50,
+            "imagen": "https://m.media-amazon.com/images/I/619QgwbQ8HL._AC_UF894,1000_QL80_.jpg",
+            "id":5
+        },
+        {
+            "nombre": "Goku",
+            "precio": 580,
+            "imagen": "https://dragonsenpai.com/cdn/shop/products/Goku_dragon_stars_ball_z_kai_super_action_toy_figure_1024x1024_fe818c19-81a3-4d7f-91d1-2e987888c036_1200x1200.jpg?v=1571775598",
+            "id":6
+        },
+        {
+            "nombre": "Saitama",
+            "precio": 900,
+            "imagen": "https://images.stockx.com/images/Funko-Animation-One-Punch-Man-Saitama-Bait-Exclusive-Figure-719.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1634683867&q=60",
+            "id":7
+        }
+    ]
+}
