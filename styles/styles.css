@@ -27,7 +27,7 @@ main{
     display: flex;
     gap: 80px;
     align-items: flex-start;
-    margin: 100px 50px 0 50px;
+    margin: 50px 50px 0 50px;
 }
 
 .products__container{
@@ -35,6 +35,13 @@ main{
     flex-direction: column;
     align-items: center;
     width: 60%;
+}
+.info__productos{
+    margin-top: 50px;
+    font-family: var(--fuente-principal);
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--azul);
 }
 
 .cards__container{
@@ -44,7 +51,7 @@ main{
     justify-content: center;
 
     margin: 20px 0;
-    height: 800px;
+    height: 65vh;
     overflow: scroll;
     
     scrollbar-width: thin;
@@ -98,6 +105,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 .formulario{
     display: flex;
@@ -151,4 +159,78 @@ main{
     background-color: #FFFFFF;
     color: var(--azul);
     border: var(--azul) solid 4px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+
+    height: 232px;
+    background-color: var(--morado-azul);
+    color: #FFFFFF;
+    font-family: var(--fuente-principal);
+    font-size: 16px;
+
+    box-shadow: #c4c4c5 0px -10px 10px;
+}
+.title__container{
+    display: flex;
+    align-items: center;
+}
+.alura{
+    font-weight: lighter;
+}
+
+/* Medias */
+@media (max-width: 768px){
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        margin: 50px 0 0 0;
+    }
+
+    /* Formulario */
+    .formulario__container{
+        width: 80%;
+        text-align: center;
+    }
+    .campo__completo{
+        width: 325px;
+    }
+    .formulario{
+        gap: 30px;
+    }
+    .btns__formulario{
+        gap: 20px;
+    }
+    .btn__formulario{
+        width: 164px;
+    }
+
+    /* Productos */
+    .products__container{
+        text-align: center;
+        width: 45vh;
+    }
+    .cards__container{
+        width: 100%;
+        gap: 5px;
+    }
+    .card{
+        width: 180px;
+        height: 242px;
+    }
+    .img__card{
+        width: 160px;
+    }
+
+    /* Footer */
+    footer{
+        height: 168px;
+    }
 }
