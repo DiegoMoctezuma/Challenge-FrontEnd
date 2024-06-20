@@ -2,9 +2,10 @@ import { conexionAPI } from "./conexionAPI.js";
 
 const lista = document.querySelector('[data-cards]');
 
-function CrearCard(nombre,precio,imagen){
+function CrearCard(nombre,precio,imagen, id){
     const card = document.createElement('div');
     card.className = 'card';
+    card.id = id;
     card.innerHTML = `
         <img class="img__card" src="${imagen}">
         <p>${nombre}</p>
@@ -25,7 +26,7 @@ async function MostrarProductos(){
         if(listaAPI.length === 0){
             lista.innerHTML = '<span class="info__productos">No se han agregado productos</span>';
         }else{
-            listaAPI.forEach(card => lista.appendChild(CrearCard(card.nombre, card.precio, card.imagen)));
+            listaAPI.forEach(card => lista.appendChild(CrearCard(card.nombre, card.precio, card.imagen,card.id)));
         }
         
     }catch{

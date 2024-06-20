@@ -32,23 +32,23 @@
         <section class="formulario__container">
             <h2 class="title">AGREGAR PRODUCTO:</h2>
             <!-- Opciones -->
-            <form class="formulario">
+            <form class="formulario" data-formulario>
 
                 <!-- Nombre -->
                 <fieldset class="formulario__campo">
-                    <input name="nombre" id="nombre" class="campo__completo" placeholder="nombre..." type="text" minlength="3" required/>
+                    <input name="nombre" id="nombre" class="campo__completo" placeholder="nombre..." type="text" minlength="3" required data-nombre/>
                     <span class="mensaje-error"></span>
                 </fieldset>
 
                 <!-- Precio -->
                 <fieldset class="formulario__campo">
-                    <input name="precio" id="precio" class="campo__completo" placeholder="precio..." type="number" minlength="2" required/>
+                    <input name="precio" id="precio" class="campo__completo" placeholder="precio..." type="number" minlength="2" required data-precio/>
                     <span class="mensaje-error"></span>
                 </fieldset>
 
                 <!-- Imagen -->
                 <fieldset class="formulario__campo">
-                    <input name="imagen" id="imagen" class="campo__completo" placeholder="imagen..." type="url" required/>
+                    <input name="imagen" id="imagen" class="campo__completo" placeholder="imagen..." type="url" required data-url/>
                     <span class="mensaje-error"></span>
                 </fieldset>
 
@@ -71,5 +71,6 @@
     </footer>
 
     <script src="js/mostrarProductos.js" type="module"></script>
+    <script src="js/agregarProducto.js" type="module"></script>
 </body>
 </html>
